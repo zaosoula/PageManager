@@ -209,14 +209,3 @@
             </div>
         </div>
 </section>
-
-<section id="github" class="github bg-primary">
-    <div class="container">
-        <h2>Made with <i class="fa fa-heart"></i> on</h2>
-        <ul class="list-inline list-social">
-            <li class="social-twitter">
-                <a href="https://github.com/zarque/PageManager" target="_blank"><i class="fa fa-github"></i></a>
-            </li>
-        </ul>
-    </div>
-</section>
