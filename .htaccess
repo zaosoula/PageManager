@@ -24,7 +24,6 @@ Options -indexes +FollowSymlinks
 
 <IfModule mod_headers.c>
 Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
-Header set Content-Security-Policy "script-src 'self' https://www.zaosoula.fr"
 Header always set X-FRAME-OPTIONS "DENY"
 Header always set X-XSS-Protection "1; mode=block"
 Header always set X-Content-Type-Options "nosniff"
