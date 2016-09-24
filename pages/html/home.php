@@ -108,6 +108,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <section class="cta" id="download">
@@ -208,4 +209,5 @@
 
             </div>
         </div>
+      </div>
 </section>

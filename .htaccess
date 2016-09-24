@@ -6,6 +6,9 @@ Options -indexes +FollowSymlinks
   RewriteRule ^docs/([a-zA-Z0-9_\-\/]+)(\.html)?(/)?$ index.php?p=docs-$1  [L]
   RewriteRule ^([a-zA-Z0-9_\-\/]+)(\.html)?(/)?$ index.php?p=$1  [L]
 
+  RewriteCond %{HTTP_HOST} ^www\.zaosoula\.fr [NC]
+  RewriteRule ^(.*)$ https://zaosoula.fr/$1 [L,R=301]
+
 </IfModule>
 
 <IfModule mod_expires.c>

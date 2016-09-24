@@ -70,4 +70,5 @@
                 <p>Congratulations, you have created your first page, just add content.
             </div>
         </div>
+      </div>
 </section>

@@ -21,6 +21,7 @@
 <meta property="og:image" content="https://zaosoula.fr/PageManager/assets/img/twitter.png">
 <meta property="og:description" content="PageManager is an opensource html & php framework that helps you to develop your web projects.">
 
+<meta name="google-site-verification" content="CdH_AwRAgAWNsiKkOAQ5RxLsjCb9A5cTynBgDEqJdas" />
 
 <title><?echo $Page->getTitle();?></title>
 
