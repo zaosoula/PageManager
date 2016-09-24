@@ -27,7 +27,7 @@
                     <a href="<?echo BaseUrl?>/docs">Docs</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="https://github.com/zarque/PageManager">Github</a>
+                    <a target="_blank" href="https://github.com/zarque/PageManager">Github</a>
                 </li>
             </ul>
         </div>
