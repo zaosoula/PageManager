@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 <meta charset="utf-8">
@@ -14,6 +14,13 @@
 <meta name="twitter:title" content="PageManager">
 <meta name="twitter:description" content="PageManager is an opensource html & php framework that helps you to develop your web projects.">
 <meta name="twitter:image" content="https://zaosoula.fr/PageManager/assets/img/twitter.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="PageManager">
+<meta property="og:url" content="https://zaosoula.fr/PageManager">
+<meta property="og:image" content="https://zaosoula.fr/PageManager/assets/img/twitter.png">
+<meta property="og:description" content="PageManager is an opensource html & php framework that helps you to develop your web projects.">
+
 
 <title><?echo $Page->getTitle();?></title>
 

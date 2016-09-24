@@ -23,6 +23,7 @@ body {
 }
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  webkit-tap-highlight-color: #222222;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -450,13 +451,11 @@ footer ul li a.active {
 }
 .btn-normal {
   color: black;
-  border-color: black;
-  border: 1px solid;
+  border: 1px solid black;
 }
 .btn-outline {
   color: white;
-  border-color: white;
-  border: 1px solid;
+  border: 1px solid white;
 }
 
 .btn-outline:hover,
@@ -502,9 +501,6 @@ img::selection {
 img::-moz-selection {
   color: white;
   background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #222222;
 }
 .getting ul{
   font-size: 18px;
