@@ -136,36 +136,37 @@
             <div class="col-md-12">
               <p>First, <a href="https://github.com/zarque/PageManager/releases/latest">download the latest version</a> of PageManager, unzip the compressed file and place the content in your project folder, you will get something like that:
                 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">PageManager/
-  ├── assets/
-  │   ├── css/
-  │   ├── fonts/
-  │   ├── img/
-  │   ├── js/
-  │   └── plugins/
-  │       └──  jquery/
-  │           ├── jquery.js
-  │           └──  jquery.min.js
-  ├── class/
-  │   └──  Page.php
-  ├── configs/
-  │   ├── config.php
-  │   └──  local.php
-  ├── pages/
-  │   ├── html/
-  │   │   ├── home.php
-  │   │   └──  404.php
-  │   └──  php/
-  │       ├── home.php
-  │       └──  404.php
-  ├── require/
-  │   ├── communFunc.php
-  │   ├── footer.php
-  │   ├── header.php
-  │   └── html.php
-  ├── tmp/
-  │   └──  trace.log
-  ├── .htaccess
-  └── index.php
+├── assets/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   └── plugins/
+│       ├──  jquery/
+│       │   ├── jquery.js
+│       │   └── jquery.min.js
+│       └── ...
+├── class/
+│   └──  Page.php
+├── configs/
+│   ├── config.php
+│   └──  local.php
+├── pages/
+│   ├── html/
+│   │   ├── home.php
+│   │   └──  404.php
+│   └──  php/
+│       ├── home.php
+│       └──  404.php
+├── require/
+│   ├── communFunc.php
+│   ├── footer.php
+│   ├── header.php
+│   └── html.php
+├── tmp/
+│   └──  trace.log
+├── .htaccess
+└── index.php
               </code></pre></figure>
               <hr>
               <ul class="list-unstyled">
