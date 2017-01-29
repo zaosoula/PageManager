@@ -8,10 +8,10 @@
 <meta name="description" content="">
 <meta name="author" content="YOURNAME">
 
-<title><?echo $Page->getTitle();?></title>
+<title><?php echo $Page->getTitle();?></title>
 
 <!-- Bootstrap Core CSS -->
-<link href="<?echo BaseUrl?>/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo BaseUrl?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -19,12 +19,12 @@
 <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 <!-- Plugin CSS -->
-<link rel="stylesheet" href="<?echo BaseUrl?>/assets/plugins/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?echo BaseUrl?>/assets/plugins/simple-line-icons/css/simple-line-icons.css">
-<link rel="stylesheet" href="<?echo BaseUrl?>/assets/plugins/device-mockups/device-mockups.min.css">
+<link rel="stylesheet" href="<?php echo BaseUrl?>/assets/plugins/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo BaseUrl?>/assets/plugins/simple-line-icons/css/simple-line-icons.css">
+<link rel="stylesheet" href="<?php echo BaseUrl?>/assets/plugins/device-mockups/device-mockups.min.css">
 
 <!-- Theme CSS -->
-<link href="<?echo BaseUrl?>/assets/css/new-age.css" rel="stylesheet">
+<link href="<?php echo BaseUrl?>/assets/css/new-age.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +38,7 @@
 </head>
 <body id="page-top">
 
-  <?
+  <?php 
     if (in_array("header", $Page->getRequire())) //Check if header need to be include (set in php file of page)
       require_once('require/header.php');
 
@@ -49,16 +49,16 @@
   ?>
 
 <!-- jQuery -->
-<script src="<?echo BaseUrl?>/assets/plugins/jquery/jquery.min.js"></script>
+<script src="<?php echo BaseUrl?>/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap JavaScript -->
-<script src="<?echo BaseUrl?>/assets/js/bootstrap.min.js"></script>
+<script src="<?php echo BaseUrl?>/assets/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 <!-- Theme JavaScript -->
-<script src="<?echo BaseUrl?>/assets/js/new-age.js"></script>
+<script src="<?php echo BaseUrl?>/assets/js/new-age.js"></script>
 
-<?
+<?php 
   $Page->load(); //Load all assets (set in php file of page)
 ?>
 </body>

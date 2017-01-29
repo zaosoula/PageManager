@@ -1,4 +1,4 @@
-<?
+<?php 
 session_start();
 
 function logger($message){

@@ -8,7 +8,7 @@
                           <p>
                               Sorry, an error has occured, requested page not found!
                           </p>
-                         <a href="<?echo BaseUrl?>/home" class="btn btn-outline btn-xl page-scroll">Retrun to home</a>
+                         <a href="<?php echo BaseUrl?>/home" class="btn btn-outline btn-xl page-scroll">Retrun to home</a>
 
                     </div>
                 </div>

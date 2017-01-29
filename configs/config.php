@@ -1,4 +1,4 @@
-<?
+<?php 
 if (file_exists(dirname(__FILE__) . '/local.php'))//If local file config exist load it
 	include(dirname(__FILE__) . '/local.php');
 
