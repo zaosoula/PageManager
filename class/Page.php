@@ -45,6 +45,16 @@ class Page {
                   break;
               default:
             }
+          }else{
+            switch (pathinfo($asset)['extension']) {
+              case 'js':
+                echo '<script src="'.$asset.'"></script>';
+                break;
+              case 'css':
+                echo '<link href="'.$asset.'" rel="stylesheet">';
+                  break;
+              default:
+            }
           }
         }
       }
