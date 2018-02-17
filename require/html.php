@@ -9,8 +9,8 @@
 <meta name="author" content="Zao Soula">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@zarque7">
-<meta name="twitter:creator" content="@zarque7">
+<meta name="twitter:site" content="@zaosoula">
+<meta name="twitter:creator" content="@zaosoula">
 <meta name="twitter:title" content="PageManager">
 <meta name="twitter:description" content="PageManager is an opensource html & php framework that helps you to develop your web projects.">
 <meta name="twitter:image" content="https://zaosoula.fr/PageManager/assets/img/twitter.png">

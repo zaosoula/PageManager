@@ -115,7 +115,7 @@
     <div class="cta-content">
         <div class="container">
             <h2>Let's Get Started!</h2>
-            <a href="https://github.com/zarque/PageManager/releases/latest" class="btn btn-outline btn-xl page-scroll">Get the latest version</a>
+            <a href="https://github.com/zaosoula/PageManager/releases/latest" class="btn btn-outline btn-xl page-scroll">Get the latest version</a>
         </div>
     </div>
     <div class="overlay"></div>
@@ -134,7 +134,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-              <p>First, <a href="https://github.com/zarque/PageManager/releases/latest">download the latest version</a> of PageManager, unzip the compressed file and place the content in your project folder, you will get something like that:
+              <p>First, <a href="https://github.com/zaosoula/PageManager/releases/latest">download the latest version</a> of PageManager, unzip the compressed file and place the content in your project folder, you will get something like that:
                 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">PageManager/
 ├── assets/
 │   ├── css/
