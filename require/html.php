@@ -33,12 +33,12 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-
+<?php echo $Page->getMeta(); ?>
 
 </head>
 <body id="page-top">
 
-  <?php 
+  <?php
     if (in_array("header", $Page->getRequire())) //Check if header need to be include (set in php file of page)
       require_once('require/header.php');
 
@@ -58,7 +58,7 @@
 <!-- Theme JavaScript -->
 <script src="<?php echo BaseUrl?>/assets/js/new-age.js"></script>
 
-<?php 
+<?php
   $Page->load(); //Load all assets (set in php file of page)
 ?>
 </body>

@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 /**
  * @package    Page
  * @author     Zao Soula - Zarque
- * @version    1.0
+ * @version    1.1
 
  */
 
@@ -11,6 +11,8 @@ class Page {
     private $title = 'YOUR SITE NAME';
     private $require = array('header','footer');
     private $assets;
+    private $meta;
+
 
 
     public function __construct($data = array())
@@ -97,6 +99,15 @@ class Page {
 
   public function setAssets($assets){
       $this->assets = $assets;
+      return $this;
+  }
+
+  public function getMeta(){
+      return $this->meta;
+  }
+
+  public function setMeta($meta){
+      $this->meta = $meta;
       return $this;
   }
 
